@@ -1,3 +1,8 @@
+# Do not commit 'output' files to git, except a README (if applicable)
+output/*.*
+!output/.gitignore
+!output/README.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
