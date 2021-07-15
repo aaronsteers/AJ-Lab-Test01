@@ -1,7 +1,10 @@
-# Do not commit 'output' files to git, except a README (if applicable)
+# Do not commit 'output' files, except a README (if applicable)
 output/*.*
 !output/.gitignore
 !output/README.md
+
+# Do not commit internal meltano files
+.meltano
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
